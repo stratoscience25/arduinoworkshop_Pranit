@@ -81,7 +81,7 @@ void loop() {
   
   ///////////////////////////// SD CARD CODE
     // make a string for assembling the data to log:
-  String dataString = "Hello World";
+  String dataString = (String)temp + "," + (String)press + "," + (String)humid;
 
 
   // open the file. note that only one file can be open at a time,
